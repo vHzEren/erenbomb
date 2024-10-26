@@ -126,9 +126,10 @@ while 1:
     elif menu == 3:
         system("cls||clear")
         system("cd ..")
-        system("py tools.py")
         print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
-        break
+        system("cls||clear")
+        system("py tools.py")
+        system("cls||clear")
     elif menu == 2:
         system("cls||clear")
         print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız: "+ Fore.LIGHTGREEN_EX, end="")
