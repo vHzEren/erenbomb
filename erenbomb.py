@@ -127,7 +127,8 @@ while 1:
     elif menu == 3:
         system("cls||clear")
         os.chdir("..")
-        print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
+        print(Fore.LIGHTRED_EX + "Multi Toola Dönüş Yapılıyor..")
+        sleep(2)
         system("cls||clear")
         system("py tools.py")
         system("cls||clear")
