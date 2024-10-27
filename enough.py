@@ -125,7 +125,7 @@ while 1:
         input()
     elif menu == 3:
         system("cls||clear")
-        system("cd ..")
+        chdir("..")
         print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
         system("cls||clear")
         system("py tools.py")
