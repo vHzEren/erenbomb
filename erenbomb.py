@@ -1,5 +1,6 @@
 from colorama import Fore, Style
 from time import sleep
+import os
 from os import system
 from sms import SendSms
 from concurrent.futures import ThreadPoolExecutor, wait
@@ -125,7 +126,7 @@ while 1:
         input()
     elif menu == 3:
         system("cls||clear")
-        chdir("..")
+        os.chdir("..")
         print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
         system("cls||clear")
         system("py tools.py")
