@@ -130,7 +130,7 @@ while 1:
         print(Fore.LIGHTRED_EX + "Multi Toola Dönüş Yapılıyor..")
         sleep(2)
         system("cls||clear")
-        system("py multitool.py")
+        system("python multitool.py")
         system("cls||clear")
     elif menu == 2:
         system("cls||clear")
